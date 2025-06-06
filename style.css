@@ -1,0 +1,82 @@
+.mcontainer
+{
+    width:30%;
+    /*background-color: black;*/
+    background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
+    height: 600px;
+    margin:30%;
+    margin-top: 0px;
+    border: 10px solid black;
+    border-radius:30px;
+   overflow: scroll;
+   scrollbar-width: none;
+    position:fixed;
+}
+.topcontainer
+{
+    width:30%;
+    background-color: green;
+    height: 55px;
+    position:fixed;
+    border-radius: 15px 15px 0px 0px ;
+    overflow: hidden;
+}
+i{
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+    /*position: absolute;*/
+}
+.middlecontainer
+{
+    /* display:block; */
+    width: 30%;
+    height:400px;
+    position: fixed;
+    overflow:scroll;
+    top: 0px;
+
+}
+.bottomcontainer
+{
+    width:30%;
+    background-color: black;
+    height: 60px;
+    position :fixed;
+    overflow: hidden;
+    bottom:75px;
+    border-radius: 0px 0px 15px 15px;
+}
+.inputmsg
+{
+    width: 30%;
+    min-height:50px;
+    font-size:20px;
+    background-color: rgb(20, 23,20);
+    color:aliceblue;
+}
+.inputfile
+{
+    width:15%;
+    min-height:50px;
+}
+.p1
+{
+    padding: 5px;
+    position: sticky;
+    top: 65px;
+    background-color: aliceblue;
+    margin-left:50px;
+}
+.p2
+{
+    margin-left: 100px;
+    background-color: aliceblue;
+}
+
+.pleft
+{
+margin-right: 100px;
+margin-top:50px;
+background-color: aliceblue;
+}
